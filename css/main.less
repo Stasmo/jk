@@ -1,0 +1,98 @@
+@black: #111;
+@white: #dfdfdf;
+@light-grey: #999;
+@dark-grey: #333;
+@main-text: "Lato";
+@oe: "old-english";
+@screen-sm-min: 768px;
+@screen-md-min: 992px;
+@screen-lg-min: 1200px;
+
+/*Fonts*/
+@font-face {
+    font-family: 'old-english';
+    src: url('../fonts/oldeenglish-webfont.eot');
+    src: url('../fonts/oldeenglish-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oldeenglish-webfont.woff') format('woff'),
+         url('../fonts/oldeenglish-webfont.ttf') format('truetype'),
+         url('../fonts/oldeenglish-webfont.svg#olde_englishregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	padding-top: 50px;
+	color: @white;
+	background-color: @black;
+	background-image: url(../img/tileable-texture-bricks-orig.png);
+	font-family: @main-text;
+}
+
+#content{
+	background-color: @black;
+	box-shadow: 0 0 5px 5px #000;
+}
+
+#header{
+	font-family: @oe;
+	font-size: 120px;
+	letter-spacing: 10px;
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    	         0px 8px 13px rgba(0,0,0,0.1),
+        	     0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.fancy{
+	background: @dark-grey;
+	box-shadow: 0 0 5px 5px #000;
+	margin: 20px;
+	padding: 0 30px;
+}
+
+.fancy > div{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.center-img{
+	margin: 0 auto;
+}
+
+.source{
+	color: @light-grey;
+}
+
+#content > .row{
+	margin-top: 150px;
+}
+
+.contact-img{
+	height: 200px;
+	width: 200px;
+	margin-top: 30px;
+	padding: 20px;
+}
+.thumbnail{
+	background-color: @white;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+	.contact-img{
+		height: 100px;
+		width: 100px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+}

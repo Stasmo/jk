@@ -1,12 +1,3 @@
-$("#main-nav a").click(function(e){
-	e.preventDefault();
-	console.log(this.href)
-	$target = $(this.href);
-	$('html,body').animate({
-        scrollTop: $target.offset().top
-    }, 1000);
-})
-
 $("#play").click(function(e){
 	e.preventDefault();
     $.fancybox({

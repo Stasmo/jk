@@ -1,27 +1,63 @@
 {
 	"shows": [
 		{
-			"date": "2013-09-10",
+			"date": "2013-09-03T20-00-00T20:00:00-07:00",
 			"description": "CD Launch - The Roxy with China Syndrome"
 		},
 		{
-			"date": "2013-09-14",
+			"date": "2013-09-04T20:00:00-07:00",
+			"description": "CD Launch - The Roxy with China Syndrome"
+		},
+		{
+			"date": "2013-09-05T20:00:00-07:00",
+			"description": "CD Launch - The Roxy with China Syndrome"
+		},
+		{
+			"date": "2013-09-06T20:00:00-07:00",
+			"description": "CD Launch - The Roxy with China Syndrome"
+		},
+		{
+			"date": "2013-09-07T20:00:00-07:00",
+			"description": "CD Launch - The Roxy with China Syndrome"
+		},
+		{
+			"date": "2013-09-08T20:00:00-07:00",
+			"description": "CD Launch - The Roxy with China Syndrome"
+		},
+		{
+			"date": "2013-09-09T20:00:00-07:00",
+			"description": "CD Launch - The Roxy with China Syndrome"
+		},
+		{
+			"date": "2013-09-10T20:00:00-07:00",
+			"description": "CD Launch - The Roxy with China Syndrome"
+		},
+		{
+			"date": "2013-09-14T20:00:00-07:00",
 			"description": "The Hive, KOI Festival Kitchener, Ontario"
 		},
 		{
-			"date": "2013-09-21",
+			"date": "2013-09-21T20:00:00-07:00",
 			"description": "The Fairview, Vancouver, BC with the Jardines and Panax"
 		},
 		{
-			"date": "2013-10-16",
+			"date": "2013-10-16T20:00:00-07:00",
 			"description": "The Backstage, Lounge, Vancouver, BC with Winter of Freedom and The Belief Experiment"
 		},
 		{
-			"date": "2013-10-19",
+			"date": "2013-10-19T20:00:00-07:00",
 			"description": "The Fanclub Free Show - 6:00 afternoon  set"
 		},
 		{
-			"date": "2013-11-01",
+			"date": "2013-11-01T20:00:00-07:00",
+			"description": "The Princeton, Vancouver, BC "
+		},
+		{
+			"date": "2013-12-03T20:00:00-07:00",
+			"description": "The Princeton, Vancouver, BC "
+		},
+		{
+			"date": "2014-12-03T20:00:00-07:00",
 			"description": "The Princeton, Vancouver, BC "
 		}
 	]
